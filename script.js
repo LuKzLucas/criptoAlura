@@ -13,6 +13,8 @@ var chaveCriptografia = [["e","enter"], ["i","imes"], ["o","ober"], ["a","ai"], 
 // função clique do botão criptografar
 botaoCriptografar.addEventListener("click", function(){
 
+	document.querySelector(".imagem-saida").style.display = "none";
+	document.querySelector("#saida-texto").style.display = "inline";
 	var textoCriptografado = encriptar(entradaTexto.value);
 	saidaTexto.value = textoCriptografado;
 
@@ -21,6 +23,8 @@ botaoCriptografar.addEventListener("click", function(){
 // função clique do botão descriptografar
 botaoDescriptografar.addEventListener("click", function(){
 
+	document.querySelector(".imagem-saida").style.display = "none";
+	document.querySelector("#saida-texto").style.display = "inline";
 	var textoDescriptografado = desencriptar(entradaTexto.value);
 	saidaTexto.value = textoDescriptografado;
 

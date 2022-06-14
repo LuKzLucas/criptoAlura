@@ -43,7 +43,7 @@ textarea{
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	background-color: white;
-
+	display: none;
 }
 
 .imagem-saida{
@@ -51,7 +51,6 @@ textarea{
 	height: 352px;
 	margin: 0 auto 5px;
 	border-radius: 10px;
-	display: none;
 }
 
 .caixas-botoes{
